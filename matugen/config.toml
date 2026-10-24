@@ -1,0 +1,6 @@
+[config]
+reload_apps = true
+
+[templates.qs]
+input_path = '~/.config/matugen/assets/v2shell_Theme.qml.in'
+output_path = '~/.config/quickshell/v2shell/theme/Theme.qml'

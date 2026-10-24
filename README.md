@@ -4,7 +4,7 @@
 > ***will use end-4's rounded-polygon-qmljs, see [https://github.com/end-4/rounded-polygon-qmljs](https://github.com/end-4/rounded-polygon-qmljs)***
 
 ## What it is ✔️
-*v2Shell is a shell built in Quickshell/QML with the Material 3 Expressive / Material You (ish) style. It
+*v2Shell is a shell built in Quickshell/QML inspired by end-4's illogical-impulse and soramane's Caelestia style. It
 is made for myself and other people. It is also a successor to Larpshell, my first shell project with spaghetti code and chaos.
 (you can see [https://codeberg.org/serendipity/larpshell](https://codeberg.org/serendipity/larpshell))*
 
