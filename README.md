@@ -2,6 +2,7 @@
 ***v2Shell: A M3E-style shell made for myself and others.***
 
 > ***will use end-4's rounded-polygon-qmljs, see [https://github.com/end-4/rounded-polygon-qmljs](https://github.com/end-4/rounded-polygon-qmljs)***
+
 > ***will use the Figtree font, make sure it is installed. see [https://fonts.google.com/specimen/Figtree](https://fonts.google.com/specimen/Figtree)**
 
 ## What it is ✔️
