@@ -56,13 +56,10 @@ Column {
         Text {
           text: root.bat
           width: 10
-          wrapMode: Text.Wrap
           font.family: "Figtree"
           font.variableAxes: { "wght": 500 }
-          lineHeightMode: Text.ProportionalHeight
-          lineHeight: 0.85 
           color: Theme.surface
-          font.pointSize: 11
+          font.pointSize: 10
           horizontalAlignment: Text.AlignHCenter
         }
       }

@@ -14,6 +14,17 @@ Column {
   id: root
   spacing: 5
   x: (center.width - width) / 2
+  
+  Text {
+    id: timeIcon
+    text: "󰥔 "
+    horizontalAlignment: Text.AlignHCenter
+    color: Theme.on_surface
+    anchors.horizontalCenter: parent.horizontalCenter
+    font.family: "Figtree"
+    font.variableAxes: { "wght": 500 }
+    visible: showTime
+  }
 
   Text {
     id: time
@@ -48,6 +59,17 @@ Column {
     font.family: "Figtree"
     font.variableAxes: { "wght": 500 }
     visible: !showTime && !showDate
+  }
+
+  Text {
+    id: dateIcon
+    text: "󰃭 "
+    horizontalAlignment: Text.AlignHCenter
+    color: Theme.on_surface
+    anchors.horizontalCenter: parent.horizontalCenter
+    font.family: "Figtree"
+    font.variableAxes: { "wght": 500 }
+    visible: showTime
   }
 
   SystemClock {
