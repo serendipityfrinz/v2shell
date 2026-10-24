@@ -3,7 +3,7 @@
 
 > ***will use end-4's rounded-polygon-qmljs, see [https://github.com/end-4/rounded-polygon-qmljs](https://github.com/end-4/rounded-polygon-qmljs)***
 
-> ***will use the Figtree font, make sure it is installed. see [https://fonts.google.com/specimen/Figtree](https://fonts.google.com/specimen/Figtree)**
+> ***will use the Figtree font, make sure it is installed. see [https://fonts.google.com/specimen/Figtree](https://fonts.google.com/specimen/Figtree)***
 
 ## What it is ✔️
 *v2Shell is a shell built in Quickshell/QML inspired by end-4's illogical-impulse and soramane's Caelestia style. It
