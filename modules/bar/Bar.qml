@@ -4,6 +4,7 @@ import QtQuick
 // folders
 import "../../theme"
 import "../../components/"
+import "./power/"
 
 Scope {
   id: root
@@ -18,8 +19,6 @@ Scope {
       id: barRect
       anchors.fill: parent
       color: Theme.surface_container
-      border.color: Theme.outline_variant
-      border.width: 2
       
       Column {
         id: firstWidgets
@@ -38,13 +37,22 @@ Scope {
 
       Column {
         id: topWidgets
-        spacing: 3
+        spacing: 7
         anchors.bottom: parent.bottom
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.bottomMargin: 10
 
+        Volume {
+          center: parent
+        }
+
         Battery {
           center: parent
+        }
+
+        Power {
+          center: parent
+          mama: bar
         }
       }
     }

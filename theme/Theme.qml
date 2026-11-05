@@ -4,8 +4,6 @@ import QtQuick
 // matugen-generated color palette.
 // absolutely not ai slop
 
-// example theme file from my wallpaper, matugen will generate it for you
-
 QtObject {
   // primary
   readonly property color primary: "#98ccf9"

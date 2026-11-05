@@ -30,10 +30,11 @@ Rectangle {
         property var ws: I3.workspaces.values.find(w => w.number === index + 1)
 
         color: isActive ? Theme.primary : ws ? Theme.outline : Theme.outline_variant
-        height: isActive ? 35 : ws ? 15 : 10
-        width: isActive ? 15 : ws ? 10 : 10
+        height: isActive ? 35 : 10
+        width: isActive ? 15 : 10
         radius: 50
         anchors.horizontalCenter: parent.horizontalCenter
+        border.color: isActive ? "transparent" : Theme.outline
 
         Behavior on width {
           SpringAnimation {
