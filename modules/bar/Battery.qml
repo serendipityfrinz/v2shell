@@ -7,7 +7,7 @@ import "../../theme/"
 
 Column {
   property var center: ""
-  property int bat: UPower.displayDevice.percentage * 50
+  property int bat: UPower.displayDevice.percentage * 100
   property bool charging: UPower.displayDevice.state === UPowerDeviceState.Charging
 
   id: root
